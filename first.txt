@@ -1,0 +1,6 @@
+arquivo de texto da aula para somente fazer uso para conhecimento no uso do git e guthub
+ate entao esta sendo interessante é bem simples e facil de entender oq e como fazer as a tarefas e como salvar em um
+repositorio remoto no github e como o mesmo é eficiente para organizar seus commits e a sua ordem com os git log 
+e pode se saber como esta o processo atual com o git status e e preparar para o commit com o git add . ou no lugar do 
+pónto colocar o nome do arquivo que vc quer que suba para o repositorio remoto caso queira todos os arquivos presentes 
+mantenha o mesmo ponto
