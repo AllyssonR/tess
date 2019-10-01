@@ -4,7 +4,11 @@ repositorio remoto no github e como o mesmo é eficiente para organizar seus com
 e pode se saber como esta o processo atual com o git status e e preparar para o commit com o git add . ou no lugar do / 
 esta linha para frente foi alterara para um exercicio
 
+
 sei la como isso funciona 
 
 
 mfsjsdiopk
+
+sem corselha pra fazaere qnem osdasjdfasdfjxcvn jaf ja jaejfsdnfaidfna sjdskj 
+
