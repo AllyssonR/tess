@@ -1,1 +1,3 @@
 esse é o segundo documento para a o exerciio proposto no curso de git 
+
+como isso pode ser possivel de ser feito somente com um terninal isso é incrivel 
