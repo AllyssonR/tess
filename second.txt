@@ -1,1 +1,2 @@
 esse é o segundo documento para a o exerciio proposto no curso de git 
+brincadeira com o master sem contexto pois nao sei oq digitar no mesmo 
