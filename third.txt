@@ -1,8 +1,19 @@
 somente um teste dos comandos git pull e git ´push como exercicio
 
+
 um teste de branch
 
 sfkdcnskdgn
 
 
 agora esout fazendo alterações na master maara um exervivio de git para alprendfiado proprio 
+
+
+agora esout fazendo alterações na master maara um exervivio de git para alprendfiado proprio 
+
+um teste de branch
+
+outro exercicio dessa vez o 6 
+
+
+

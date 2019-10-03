@@ -1,9 +1,18 @@
 esse é o segundo documento para a o exerciio proposto no curso de git 
 
 
+
 como isso pode ser possivel de ser feito somente com um terninal isso é incrivel 
 
 jdfikidsnek
 
 brincadeira com o master sem contexto pois nao sei oq digitar no mesmo 
+
+brincadeira com o master sem contexto pois nao sei oq digitar no mesmo 
+
+
+como isso pode ser possivel de ser feito somente com um terninal isso é incrivel 
+
+agora vou fazer o exercicio 6 e como pode usar o rebase 
+
 
