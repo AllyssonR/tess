@@ -1,3 +1,7 @@
 somente um teste dos comandos git pull e git ´push como exercicio
 
+
 agora esout fazendo alterações na master maara um exervivio de git para alprendfiado proprio 
+
+um teste de branch
+
