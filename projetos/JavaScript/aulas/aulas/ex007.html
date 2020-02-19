@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Somando valores</title>
+    <style>
+        body{
+            color: indigo;
+            background: rgb(53, 35, 207);
+            font: normal 20px Arial;
+        }
+    </style>
+</head>
+<body>
+    <input type="number" name="txt1" id="txt1">+
+    <input type="number" name="txt2" id="txt2">
+    <input type="button" value="Calcular" onclick="somar()">
+    <div id="res">Resultado</div>
+    <script>
+        function somar(){
+            var n1 = document.querySelector('input#txt1')
+            var n2 = document.querySelector('input#txt2')
+            var res = document.querySelector('div#res')
+            var numero1 = Number(n1.value)
+            var numero2 = Number(n2.value)
+            var somador = n1 + n2
+            res.innerHTML = `O resultado da soma é ${somador}`
+            
+
+        }
+    </script>
+</body>
+</html>

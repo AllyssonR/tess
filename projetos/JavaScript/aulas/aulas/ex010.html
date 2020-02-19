@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercicio</title>
+    <style>
+        body{
+            font: normal 20px Arial;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Você é estrangeiro ?</h1>
+    Digite de Aonde Você é <input type="text" name="nacionalidade" id="nacionalidade">
+    <div id="res">
+
+    </div>
+    <input type="button" value="Testar" onclick="testar()">
+    <script>
+        function testar(){
+            var nacionalidade = document.querySelector('input#nacionalidade')
+            var res = document.querySelector('input#res')
+            res.innerHTML = `Sua nacionalidade é ${nacionalidade}`
+            if (nacionalidade == 'Brasil'){
+            res.innerHTML += `Você é <strong>Brasileiro</strong>`
+            }else{
+                 res.innerHTML += `Voce é estrangeiro`
+                }
+        }
+
+    </script>
+
+</body>
+</html>

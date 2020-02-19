@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Conhcendo o DOM</title>
+    <style>
+        div#area{
+            font: normal 20px Arial;
+            background: rgb(42, 139, 42);
+            color: white;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id = "area" onclick="clicar()" onmouseover="entrou()" onmouseout="sair()">
+        interaja... 
+    </div>
+    <script>
+         var interacao = window.document.getElementById("area")
+        function clicar(){
+           interacao.innerText  = 'Clicou'
+           interacao.style.background = 'red'
+        }
+        function emtrar(){
+            interacao.innerText = 'Entrou'
+        }
+        function sair(){
+            interacao.innerText = 'Saiu'
+            interacao.style.background ='green'
+        }
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+/**{
+    margin: 0px;
+    padding: 0px;
+
+}
+h1{
+    color: blue;
+    font-size: 50px;
+
+}
+p{
+    color: green;
+    font-size: 12px;
+
+}
+input{
+    width: 200px;
+    background-color: #ccc;
+}
+input[type="nome"]{
+    width: 20px;
+    background-color: #ccc;
+    height: 35px;
+    border: none;
+}
+input[type="email"]{
+    width: 20px;
+    background-color: #ccc;
+    height: 35px;
+    border: none;
+}
+input[type="submit"]{
+    background-color: green;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+    color:#fff;
+}*/
+/*h1,h2,p{
+    color: red;
+    text-align: center;
+     
+}*/
+/*.texto-principal{color: red;text-align: center;}*/
+#conteudo{background-color: green; color: #ffffff; padding: 20px;width: 500px;}
