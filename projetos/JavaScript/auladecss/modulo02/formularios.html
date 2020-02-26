@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+</head>
+
+<body>
+    <form action="cadastro.php" method="POST"></form>
+    <fieldset>
+        <legend>informações pessoais</legend>
+        Nome:<br>
+        <input type="text" name="Nome" required max="35"><br>
+        Email:<br>
+        <input type="email" name="email" id="email" required autocomplete="on" placeholder="seuemail@gmail.com"><br>
+        Senha:<br>
+        <input type="password" name="senha" autofocus><br>
+        <input type="submit" name="btn_enviar" value="enviar"><br>
+        time <br>
+        <input type="radio" name="time" id="time" value="vasco">Vasco <br>
+        <input type="radio" name="time" id="time" value="botafogo">botafogo <br>
+        <input type="radio" name="time" id="time" value="flamengo">flamengo <br>
+        cores: <br>
+        <input type="checkbox" name="verde" id="verde">verde <br>
+        <input type="checkbox" name="vermelho" id="vermelho">vermelho <br>
+        <input type="checkbox" name="amarelo" id="amarelo">amarelo <br>
+        <input type="checkbox" name="preto" id="preto"> preto <br>
+        Quantidade: <br>
+        <input type="number" name="quantidade" id="quantidade" min="0" max="10" step="2">
+        <input type="range" name="quantidade" id="quantidade">
+        <input type="color" name="cor" id="cor">
+        imagem:<br><br>
+        <input type="file" name="pegaarquivo" id="pegaarquivo"><br><br>
+        <input type="hidden" name="id"><br><br>
+
+        URL: <br> <br>
+        <input type="url" name="url" id="url"> <br>
+        telefone: <br> <br>
+        <input type="tel" name="telefone" id="telefone">
+
+        data: <br> <br>
+        <input type="date" name="data" id="data" min="2000-12-31" max="2099-12-31">
+        searcn:
+        <input type="search" name="pesquisa" id="pesquisa">
+
+        hora: <br>
+        <input type="time" name="hora" id="hora"> <br> <br>
+
+        mes e ano <br> <br>
+        <input type="month" name="mes_ano" id="mes_ano"><br> <br>
+
+
+        semana: <br> <br>
+        <input type="week" name="semana" id="semana">
+
+        data e hora:
+        <input type="datetime-local" name="datah" id="datah">
+        <textarea name="mensagem" id="mensagem" cols="5" rows="30">    </textarea>
+    </fieldset>
+
+</body>
+
+</html>
