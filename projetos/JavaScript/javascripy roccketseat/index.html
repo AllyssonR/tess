@@ -1,11 +1,27 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>desafios</title>
 </head>
+
 <body>
-    <script src="/desafios/desafio01.js.js"></script>
+    <div id="app">
+        Nome:<input type="text" name="nome" id="nome">
+        <input type="button" name="botao" id="botao" value="adicionar" onclick="clicado()">
+    </div>
+    <script>
+
+        function clicado() {
+            var InputElement = document.querySelector('input#nome')
+            var text = InputElement.Value
+            var texto = String(text)
+            alert(text)
+            alert(texto)
+        }
+    </script>
 </body>
+
 </html>
