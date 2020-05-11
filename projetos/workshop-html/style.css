@@ -1,36 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-*{
+
+* {
   font-family: 'Roboto', Arial;
 
 }
-body{
+
+body {
   background: #e5e5e5;
   color: #25282b;
   text-align: center;
 }
-p{
+
+p {
   text-align: right;
 
 
 }
 
-button{
+button {
   color: #ff5e84;
   border: none;
   font-weight: bold;
   background: none;
 }
 
-.fat{
+.fat {
   color: white;
-  background:#ff5e84 ;
+  background: #ff5e84;
 
 }
+
 footer a {
   color: #25282b;
   text-decoration: none;
 }
-.hide{
+
+.hide {
   display: none;
 }
-
