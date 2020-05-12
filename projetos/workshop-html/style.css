@@ -10,6 +10,12 @@ body {
   color: #25282b;
   text-align: center;
 }
+button {
+  color: #ff5e84;
+  border: none;
+  font-weight: bold;
+  background: none;
+}
 
 p {
   text-align: right;
@@ -17,12 +23,6 @@ p {
 
 }
 
-button {
-  color: #ff5e84;
-  border: none;
-  font-weight: bold;
-  background: none;
-}
 
 .fat {
   color: white;
