@@ -1,40 +1,67 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
 * {
-  font-family: 'Roboto', Arial;
-
+    font-family: 'Roboto', Arial;
 }
 
 body {
-  background: #e5e5e5;
-  color: #25282b;
-  text-align: center;
-}
-button {
-  color: #ff5e84;
-  border: none;
-  font-weight: bold;
-  background: none;
-}
-
-p {
-  text-align: right;
-
-
-}
-
-
-.fat {
-  color: white;
-  background: #ff5e84;
-
-}
-
-footer a {
-  color: #25282b;
-  text-decoration: none;
+    background: #e5e5e5;
+    color: #25282b;
 }
 
 .hide {
-  display: none;
+    display: none;
+}
+
+a {
+    color: #ff5e84;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#container {
+    width: 90%;
+    max-width: 980px;
+    margin: 40px auto;
+    display: flex;
+}
+
+#intro {
+    width: 300px;
+    margin-right: 20px;
+}
+
+main {
+    margin: 32px 0;
+}
+
+#buttons {
+    display: flex;
+    margin-bottom: 32px;
+    justify-content: space-evenly;
+}
+
+button {
+    background: none;
+    color: #ff5e84;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    text-decoration: underline;
+}
+
+button.fat {
+    background: #ff5e84;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 6px;
+    box-shadow: 0px 8px 16px #dd5e8432;
 }
