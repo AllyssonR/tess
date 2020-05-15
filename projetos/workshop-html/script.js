@@ -1,6 +1,6 @@
 function onOff() {
     document
-        .querySelector("#modal")
+        .querySelector('#modal')
         .classList
-        .toggle("hide")
+        .toggle("hide");
 }
