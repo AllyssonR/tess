@@ -6,6 +6,11 @@
 body {
     background: #e5e5e5;
     color: #25282b;
+    margin: 0;
+}
+
+body.hideScroll {
+    overflow: hidden;
 }
 
 a {
@@ -124,8 +129,9 @@ footer a {
     background: #ff5e84;
     position: absolute;
     top: 0;
-    width: 100vw;
-    height: 110vh;
+    bottom: 0;
+    right: 0;
+    left: 0;
     display: flex;
     justify-content: center;
     transition: 400ms;
@@ -215,4 +221,77 @@ form input[type="button"]:hover {
 #modal.hide {
     opacity: 0;
     visibility: hidden;
+}
+
+
+/*Ideias.html*/
+
+#page-ideias #container {
+    display: block;
+}
+
+#page-ideias header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#page-ideias nav {
+    display: flex;
+    align-items: center;
+}
+
+#page-ideias nav li {
+    list-style-type: none;
+    margin-right: 16px;
+}
+
+#page-ideias nav li a {
+    color: #25282b;
+}
+
+#page-ideias #container header nav li:last-child {
+    margin: 0;
+}
+
+#page-ideias nav li:last-child {
+    margin: 0;
+}
+
+#page-ideias nav li:last-child a {
+    width: 150px;
+    height: 40px;
+    background-color: #ff5e84;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+#page-ideias nav li:last-child a:hover {
+    background-color: #0984e3;
+    text-decoration: none;
+}
+
+section#title {
+    text-align: center;
+    margin-top: 64px;
+}
+
+section#title p {
+    opacity: 0.7;
+    margin: 0;
+}
+
+section#title h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+section#ideas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
 }
