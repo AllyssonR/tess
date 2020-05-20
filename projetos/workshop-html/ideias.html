@@ -11,11 +11,13 @@
 <body id="page-ideias">
     <div id="container">
         <header>
-            <img src="./images/logo.png" alt="Logomarca empresa">
+            <a href="index.html">
+                <img src="./images/logo.png" alt="Logomarca empresa">
+            </a>
             <nav>
                 <li><a href="index.html">Inicio</a></li>
-                <li><a href="#">Ideias</a></li>
-                <li><a href="#" onclick="onOff()">Nova Ideia</a></li>
+
+                <li><a class="button" href="#" onclick="onOff()">Nova Ideia</a></li>
             </nav>
         </header>
         <section id="title">
@@ -62,71 +64,74 @@
 
                         </div>
                         <a href="#">Ir para a ideia</a>
-
                     </div>
-                    <div class="idea">
-                        <img src="https://image.flaticon.com/icons/svg/2729/2729023.svg" alt="Imagem de Karaokê">
-                        <div class="content">
-                            <h3>Karaokê</h3>
-                            <p>Diverção em familia</p>
-                            <div class="description">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, maiores quod. Libero doloremque reprehenderit iure molestias nulla, commodi soluta aut minima ullam nihil, quae quis delectus inventore totam similique officiis.
+                </div>
 
-                            </div>
-                            <a href="#">Ir para a ideia</a>
+                <div class="idea">
+                    <img src="https://image.flaticon.com/icons/svg/2729/2729023.svg" alt="Imagem de Karaokê">
+                    <div class="content">
+
+
+                        <h3>Karaokê</h3>
+                        <p>Diverção em familia</p>
+                        <div class="description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, maiores quod. Libero doloremque reprehenderit iure molestias nulla, commodi soluta aut minima ullam nihil, quae quis delectus inventore totam similique officiis.
 
                         </div>
+                        <a href="#">Ir para a ideia</a>
                     </div>
-            </section>
-        </main>
-        <footer>
-            Com &#128151; <a href="http://rocketseat.com.br">Rocketseat</a>
-        </footer>
+                </div>
+    </div>
+    </section>
+    </main>
+    <footer>
+        Com &#128151; <a href="http://rocketseat.com.br" target="_blank">Rocketseat</a>
+    </footer>
+    </div>
+    <!--Modal-->
+    <div id="modal" class="hide">
+        <div class="content">
+            <h1>Nova Ideia</h1>
+            <form action="">
+                <div class="input-wrapper">
+                    <label for="title">Titulo da ideia</label>
+                    <input type="text" name="title" id="">
+
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="category">Categoria</label>
+                    <input type="text" name="category" id="">
+
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="image">Link da imagem</label>
+                    <input type="url" name="image" id="">
+
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="description">Digite uma descrição para essa ideia</label>
+                    <textarea name="description" id="" cols="30" rows="10"></textarea>
+
+                </div>
+
+                <div class="input-wrapper">
+
+                    <label for="link">Link da ideia</label>
+                    <input type="text" name="link" id="">
+                </div>
+
+
+                <a href="#" onclick="onOff()">Voltar</a>
+                <input type="button" value="Salvar">
+
+            </form>
         </div>
-        <!--Modal-->
-        <div id="modal" class="hide">
-            <div class="content">
-                <h1>Nova Ideia</h1>
-                <form action="">
-                    <div class="input-wrapper">
-                        <label for="title">Titulo da ideia</label>
-                        <input type="text" name="title" id="">
+    </div>
 
-                    </div>
-
-                    <div class="input-wrapper">
-                        <label for="category">Categoria</label>
-                        <input type="text" name="category" id="">
-
-                    </div>
-
-                    <div class="input-wrapper">
-                        <label for="image">Link da imagem</label>
-                        <input type="url" name="image" id="">
-
-                    </div>
-
-                    <div class="input-wrapper">
-                        <label for="description">Digite uma descrição para essa ideia</label>
-                        <textarea name="description" id="" cols="30" rows="10"></textarea>
-
-                    </div>
-
-                    <div class="input-wrapper">
-
-                        <label for="link">Link da ideia</label>
-                        <input type="text" name="link" id="">
-                    </div>
-
-
-                    <a href="#" onclick="onOff()">Voltar</a>
-                    <input type="button" value="Salvar">
-
-                </form>
-            </div>
-        </div>
-
-        <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
