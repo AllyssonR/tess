@@ -1,3 +1,5 @@
+/*GLOBAL*/
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&display=swap');
 * {
     font-family: 'Montserrat', sans-serif;
@@ -30,6 +32,28 @@ p,
     letter-spacing: 0.1px;
 }
 
+.button {
+    background: #ff5e84;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px #dd5e8432;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button:hover {
+    background-color: #0984e3;
+    text-decoration: none;
+}
+
+
+/*Padrão*/
+
 #container {
     width: 90%;
     max-width: 980px;
@@ -39,7 +63,7 @@ p,
 
 #intro {
     width: 300px;
-    margin-right: 20px;
+    margin-right: 64px;
 }
 
 main {
@@ -66,19 +90,6 @@ button {
 
 button:hover {
     text-decoration: underline;
-}
-
-button.fat {
-    background: #ff5e84;
-    color: white;
-    width: 150px;
-    height: 40px;
-    border-radius: 6px;
-    box-shadow: 0px 8px 16px #dd5e8432;
-}
-
-button.fat:hover {
-    text-decoration: none;
 }
 
 footer {
@@ -138,7 +149,7 @@ footer a {
 }
 
 #modal .content {
-    margin-top: 128px;
+    margin-top: 15%;
     color: white;
 }
 
@@ -150,7 +161,7 @@ footer a {
 #modal form {
     width: 80%;
     max-width: 800px;
-    margin: 0 auto;
+    margin: 0 auto 15%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
@@ -223,6 +234,10 @@ form input[type="button"]:hover {
     visibility: hidden;
 }
 
+#modal.addScroll {
+    overflow: auto;
+}
+
 
 /*Ideias.html*/
 
@@ -249,30 +264,16 @@ form input[type="button"]:hover {
     color: #25282b;
 }
 
+#page-ideias nav li a.button {
+    color: white;
+}
+
 #page-ideias #container header nav li:last-child {
     margin: 0;
 }
 
 #page-ideias nav li:last-child {
     margin: 0;
-}
-
-#page-ideias nav li:last-child a {
-    width: 150px;
-    height: 40px;
-    background-color: #ff5e84;
-    color: white;
-    font-size: 14px;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 8px;
-}
-
-#page-ideias nav li:last-child a:hover {
-    background-color: #0984e3;
-    text-decoration: none;
 }
 
 section#title {
