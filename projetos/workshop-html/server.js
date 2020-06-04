@@ -1,6 +1,6 @@
 //usei o express pra criar meu servidor e configurar meu servidor
-const express = require('express')
-const server = express()
+const express = require('express');
+const server = express();
 
 
 const ideias = [{
@@ -40,25 +40,28 @@ const ideias = [{
 ]
 
 //configurar arquivos estaticos
-server.use(express.static('public'))
+server.use(express.static('public'));
 
 //Configuração  do nunjucks
-const nunjucks = require('nunjucks')
+const nunjucks = require('nunjucks');
 nunjucks.configure('views', {
+    autoescape: true,
     express: server,
     noCache: true, //boolean
 })
 
 //criei uma rota /
 //e capturo o pedido do cliente para responder
-server.get("/", function(req, res) {
-    return res.render('ideias.html')
-})
+server.get("/", (req, res) => {
+
+
+    return res.render('index.html');
+});
 
 
 server.get("/ideias", function(req, res) {
-    return res.render('ideias.html')
+    return res.render('ideias.html');
 })
 
 //liguei meu servidor na porta 3000
-server.listen(3000)
+server.listen(3000);
